@@ -15,8 +15,6 @@ class SdSerializer1(serializers.ModelSerializer):
     class Meta:
         model = StudentDetails1
         fields =( 'id',
-        'Name' ,
-        'age',
-        'key' ,
-        'gender'
+        'product_name' ,
+        'product_key'
         )
